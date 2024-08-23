@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
+body{
+	background-image:url("https://cdn.pixabay.com/photo/2017/10/10/07/48/hills-2836301_1280.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: left;
+}
+
+button{
+	border: 1.5px solid black;
+	background: linear-gradient( rgb(13, 223, 238), rgb(2, 151, 250), rgb(3, 32, 197));
+	border-radius: 20%;
+	cursor: pointer;
+	text-align: center;
+	color: rgb(8, 0, 255);
+}
+
+
+b, h4{
+    font-family: 'Imbue', sans-serif;
+    font-size: 15px;
+}
+
+@keyframes animationVio{
+	10% {
+		color: red;
+		font-weight: bold;
+	}
+}
+
+h2{
+	animation: animationVio 1.75s infinite;
+}
+
+b:hover{
+	color:rgba(255, 255, 0, 0.76);
+}
+summary:hover{
+	color: rgba(255, 255, 0, 0.719);
+}
+summary{
+	color: black;
+}
+strong:hover{
+	color: rgba(255, 0, 0, 0.726);
+	font-weight: bold;
+}
+@keyframes animationViorel{
+	30%{
+		color: rgb(255, 0, 0);
+	}
+	50%{
+		color: rgb(0, 255, 0);
+	}
+	100%{
+		color:rgb(0, 0, 255);
+	}
+}
+
+h1{
+	animation: animationViorel 2s infinite;
+	font-family:'Playwrite CU', sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+}
