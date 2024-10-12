@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
 
 body{
-	background-image:url("https://cdn.pixabay.com/photo/2017/10/10/07/48/hills-2836301_1280.jpg");
+	background-image:url("https://i.pinimg.com/originals/12/f9/eb/12f9eb376e3f34a1f5429a2d4cacc03c.jpg");
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-size: 110% 110%;
 	text-align: left;
 }
 
 button{
-	border: 1.5px solid black;
-	background: linear-gradient( rgb(13, 223, 238), rgb(2, 151, 250), rgb(3, 32, 197));
-	border-radius: 20%;
+	border: 2px solid black;
+	background: linear-gradient( rgb(13, 223, 238), rgb(62, 178, 255), rgb(0, 23, 141));
+	border-radius: 30%;
 	cursor: pointer;
 	text-align: center;
-	color: rgb(8, 0, 255);
+	color: blue;
 }
 
 
@@ -30,20 +30,20 @@ b, h4{
 }
 
 h2{
-	animation: animationVio 1.75s infinite;
+	animation: animationVio 2s infinite;
 }
 
 b:hover{
-	color:rgba(255, 255, 0, 0.76);
+	color:whitesmoke;
 }
 summary:hover{
-	color: rgba(255, 255, 0, 0.719);
+	color: whitesmoke;
 }
 summary{
-	color: black;
+	color: rgb(0, 250, 255);
 }
 strong:hover{
-	color: rgba(255, 0, 0, 0.726);
+	color: rgb(0, 0, 0);
 	font-weight: bold;
 }
 @keyframes animationViorel{
@@ -64,3 +64,21 @@ h1{
 	font-weight: 400;
 	font-size: 25px;
 }
+
+h4{
+	color:rgb(0, 170, 255);
+}
+
+h4:hover{
+	color:white;
+	cursor: copy;
+}
+
+h3{
+	color: rgb(255, 0, 0);
+
+}
+#call:hover, #mail:hover{
+	color: red;
+}
+
