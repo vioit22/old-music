@@ -66,11 +66,11 @@ h1{
 }
 
 h4{
-	color:rgb(0, 170, 255);
+	color: white;
 }
 
 h4:hover{
-	color:white;
+	color:rgb(0, 170, 255);
 	cursor: copy;
 }
 
